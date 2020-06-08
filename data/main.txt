@@ -1,0 +1,59 @@
+|cities.txt
+
+%[book_flight](train:400, test:100)
+    I'm going from @[departure] to @[destination] ~[tomorrow?]
+    @[departure] to @[destination]
+    @[departure] @[destination]
+    from ~[month] to ~[month]
+    from ~[hours]~[am?]
+
+@[departure]
+    ~[city]
+
+@[destination]
+    ~[city]
+ 
+~[weekday]
+    Monday
+    Tuesday
+    Wednesday
+    Thursday
+    Friday
+    Saturday
+    Sunday
+
+~[month]
+    January
+    February
+    March
+    April
+    May
+    June
+    July
+    August
+    September
+    October
+    November
+    December 
+
+~[hours]
+    1
+    2
+    3
+    4
+    5
+    6
+    7
+    8
+    9
+    10
+    11
+    12 
+
+~[tomorrow]
+    tomorrow
+    on ~[weekday]
+
+~[am]
+    am
+    pm

@@ -1,0 +1,9 @@
+# Configuration for Rasa NLU.
+# https://rasa.com/docs/rasa/nlu/components/
+language: en
+pipeline:
+  - name: SpacyNLP
+  - name: SpacyTokenizer
+  - name: RegexFeaturizer
+  - name: CRFEntityExtractor
+  - name: EntitySynonymMapper
