@@ -1,0 +1,14 @@
+{
+    "rasa_nlu_data": {
+        "common_examples": null,
+        "entity_synonyms": null,
+        "regex_features": [
+          ],
+        "lookup_tables": [
+             {
+               "name": "capitals",
+               "elements": "data\\cities.txt"
+             }
+        ]
+    }
+}

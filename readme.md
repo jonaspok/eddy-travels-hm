@@ -1,5 +1,5 @@
 Generate train/test data:  
-python -m chatette data\main.txt -o data\rasa_nlu -s abcd -f
+python -m chatette data\main.txt -o data\rasa_nlu -s abcd -f --base-file data\base.json
 
 Train model:  
 rasa train nlu -u data\rasa_nlu\train --fixed-model-name crf_model

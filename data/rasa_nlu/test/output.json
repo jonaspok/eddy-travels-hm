@@ -4,38 +4,38 @@
       {
         "entities": [
           {
-            "end": 16,
+            "end": 5,
             "entity": "departure",
             "start": 0,
-            "value": "Andorra la Vella"
+            "value": "Amman"
           },
           {
-            "end": 27,
+            "end": 14,
             "entity": "destination",
-            "start": 17,
-            "value": "Tskhinvali"
+            "start": 6,
+            "value": "Belgrade"
           }
         ],
         "intent": "book_flight",
-        "text": "Andorra la Vella Tskhinvali"
+        "text": "Amman Belgrade"
       },
       {
         "entities": [
           {
-            "end": 16,
+            "end": 5,
             "entity": "departure",
             "start": 0,
-            "value": "Andorra la Vella"
+            "value": "Amman"
           },
           {
-            "end": 26,
+            "end": 13,
             "entity": "destination",
-            "start": 20,
-            "value": "London"
+            "start": 6,
+            "value": "Conakry"
           }
         ],
         "intent": "book_flight",
-        "text": "Andorra la Vella to London"
+        "text": "Amman Conakry"
       },
       {
         "entities": [
@@ -46,32 +46,86 @@
             "value": "Antananarivo"
           },
           {
-            "end": 22,
+            "end": 18,
             "entity": "destination",
-            "start": 16,
-            "value": "Malabo"
+            "start": 13,
+            "value": "Vaduz"
           }
         ],
         "intent": "book_flight",
-        "text": "Antananarivo to Malabo"
+        "text": "Antananarivo Vaduz"
       },
       {
         "entities": [
           {
-            "end": 4,
+            "end": 8,
             "entity": "departure",
             "start": 0,
-            "value": "Baku"
+            "value": "Asuncion"
           },
           {
-            "end": 18,
+            "end": 24,
             "entity": "destination",
-            "start": 8,
-            "value": "San Marino"
+            "start": 12,
+            "value": "Antananarivo"
           }
         ],
         "intent": "book_flight",
-        "text": "Baku to San Marino"
+        "text": "Asuncion to Antananarivo"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "departure",
+            "start": 0,
+            "value": "Asuncion"
+          },
+          {
+            "end": 19,
+            "entity": "destination",
+            "start": 12,
+            "value": "Cotonou"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Asuncion to Cotonou"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "entity": "departure",
+            "start": 0,
+            "value": "Bangkok"
+          },
+          {
+            "end": 17,
+            "entity": "destination",
+            "start": 8,
+            "value": "Reykjavik"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Bangkok Reykjavik"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "entity": "departure",
+            "start": 0,
+            "value": "Bangkok"
+          },
+          {
+            "end": 17,
+            "entity": "destination",
+            "start": 11,
+            "value": "Madrid"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Bangkok to Madrid"
       },
       {
         "entities": [
@@ -79,17 +133,17 @@
             "end": 6,
             "entity": "departure",
             "start": 0,
-            "value": "Bamako"
+            "value": "Bangui"
           },
           {
-            "end": 14,
+            "end": 18,
             "entity": "destination",
             "start": 10,
-            "value": "Riga"
+            "value": "Castries"
           }
         ],
         "intent": "book_flight",
-        "text": "Bamako to Riga"
+        "text": "Bangui to Castries"
       },
       {
         "entities": [
@@ -100,32 +154,194 @@
             "value": "Belgrade"
           },
           {
-            "end": 14,
+            "end": 19,
             "entity": "destination",
             "start": 9,
-            "value": "Cairo"
+            "value": "Nouakchott"
           }
         ],
         "intent": "book_flight",
-        "text": "Belgrade Cairo"
+        "text": "Belgrade Nouakchott"
       },
       {
         "entities": [
           {
-            "end": 12,
+            "end": 7,
             "entity": "departure",
             "start": 0,
-            "value": "Bloemfontein"
+            "value": "Bishkek"
+          },
+          {
+            "end": 12,
+            "entity": "destination",
+            "start": 8,
+            "value": "Oslo"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Bishkek Oslo"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "entity": "departure",
+            "start": 0,
+            "value": "Bogota"
           },
           {
             "end": 19,
             "entity": "destination",
-            "start": 13,
-            "value": "Gitega"
+            "start": 10,
+            "value": "Naypyidaw"
           }
         ],
         "intent": "book_flight",
-        "text": "Bloemfontein Gitega"
+        "text": "Bogota to Naypyidaw"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "entity": "departure",
+            "start": 0,
+            "value": "Bratislava"
+          },
+          {
+            "end": 17,
+            "entity": "destination",
+            "start": 11,
+            "value": "La Paz"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Bratislava La Paz"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "entity": "departure",
+            "start": 0,
+            "value": "Bratislava"
+          },
+          {
+            "end": 17,
+            "entity": "destination",
+            "start": 11,
+            "value": "Roseau"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Bratislava Roseau"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "departure",
+            "start": 0,
+            "value": "Brazzaville"
+          },
+          {
+            "end": 20,
+            "entity": "destination",
+            "start": 12,
+            "value": "Hargeisa"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Brazzaville Hargeisa"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "departure",
+            "start": 0,
+            "value": "Brazzaville"
+          },
+          {
+            "end": 22,
+            "entity": "destination",
+            "start": 12,
+            "value": "Nuku`alofa"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Brazzaville Nuku`alofa"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "departure",
+            "start": 0,
+            "value": "Brazzaville"
+          },
+          {
+            "end": 19,
+            "entity": "destination",
+            "start": 12,
+            "value": "Yaounde"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Brazzaville Yaounde"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "departure",
+            "start": 0,
+            "value": "Bucharest"
+          },
+          {
+            "end": 20,
+            "entity": "destination",
+            "start": 10,
+            "value": "Phnom Penh"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Bucharest Phnom Penh"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "departure",
+            "start": 0,
+            "value": "Canberra"
+          },
+          {
+            "end": 17,
+            "entity": "destination",
+            "start": 9,
+            "value": "Dushanbe"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Canberra Dushanbe"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "departure",
+            "start": 0,
+            "value": "Canberra"
+          },
+          {
+            "end": 20,
+            "entity": "destination",
+            "start": 12,
+            "value": "Ashgabat"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Canberra to Ashgabat"
       },
       {
         "entities": [
@@ -136,14 +352,122 @@
             "value": "Caracas"
           },
           {
-            "end": 16,
+            "end": 13,
             "entity": "destination",
             "start": 8,
-            "value": "Djibouti"
+            "value": "Quito"
           }
         ],
         "intent": "book_flight",
-        "text": "Caracas Djibouti"
+        "text": "Caracas Quito"
+      },
+      {
+        "entities": [
+          {
+            "end": 16,
+            "entity": "departure",
+            "start": 0,
+            "value": "Charlotte Amalie"
+          },
+          {
+            "end": 26,
+            "entity": "destination",
+            "start": 17,
+            "value": "Kingstown"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Charlotte Amalie Kingstown"
+      },
+      {
+        "entities": [
+          {
+            "end": 16,
+            "entity": "departure",
+            "start": 0,
+            "value": "Charlotte Amalie"
+          },
+          {
+            "end": 30,
+            "entity": "destination",
+            "start": 20,
+            "value": "St. Pierre"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Charlotte Amalie to St. Pierre"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "entity": "departure",
+            "start": 0,
+            "value": "Conakry"
+          },
+          {
+            "end": 19,
+            "entity": "destination",
+            "start": 11,
+            "value": "Kinshasa"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Conakry to Kinshasa"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "entity": "departure",
+            "start": 0,
+            "value": "Copenhagen"
+          },
+          {
+            "end": 23,
+            "entity": "destination",
+            "start": 14,
+            "value": "Vientiane"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Copenhagen to Vientiane"
+      },
+      {
+        "entities": [
+          {
+            "end": 5,
+            "entity": "departure",
+            "start": 0,
+            "value": "Dakar"
+          },
+          {
+            "end": 18,
+            "entity": "destination",
+            "start": 9,
+            "value": "New Delhi"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Dakar to New Delhi"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "departure",
+            "start": 0,
+            "value": "Damascus"
+          },
+          {
+            "end": 18,
+            "entity": "destination",
+            "start": 9,
+            "value": "Ljubljana"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Damascus Ljubljana"
       },
       {
         "entities": [
@@ -154,14 +478,122 @@
             "value": "Dhaka"
           },
           {
-            "end": 11,
+            "end": 28,
             "entity": "destination",
-            "start": 6,
-            "value": "Yaren"
+            "start": 9,
+            "value": "Episkopi Cantonment"
           }
         ],
         "intent": "book_flight",
-        "text": "Dhaka Yaren"
+        "text": "Dhaka to Episkopi Cantonment"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "departure",
+            "start": 0,
+            "value": "Djibouti"
+          },
+          {
+            "end": 20,
+            "entity": "destination",
+            "start": 9,
+            "value": "West Island"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Djibouti West Island"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "departure",
+            "start": 0,
+            "value": "Djibouti"
+          },
+          {
+            "end": 23,
+            "entity": "destination",
+            "start": 12,
+            "value": "Addis Ababa"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Djibouti to Addis Ababa"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "departure",
+            "start": 0,
+            "value": "Djibouti"
+          },
+          {
+            "end": 16,
+            "entity": "destination",
+            "start": 12,
+            "value": "Juba"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Djibouti to Juba"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "entity": "departure",
+            "start": 0,
+            "value": "Dublin"
+          },
+          {
+            "end": 16,
+            "entity": "destination",
+            "start": 10,
+            "value": "Noumea"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Dublin to Noumea"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "departure",
+            "start": 0,
+            "value": "El Aioun"
+          },
+          {
+            "end": 18,
+            "entity": "destination",
+            "start": 12,
+            "value": "Athens"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "El Aioun to Athens"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "departure",
+            "start": 0,
+            "value": "Freetown"
+          },
+          {
+            "end": 15,
+            "entity": "destination",
+            "start": 9,
+            "value": "Bamako"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Freetown Bamako"
       },
       {
         "entities": [
@@ -172,50 +604,14 @@
             "value": "Funafuti"
           },
           {
-            "end": 28,
+            "end": 17,
             "entity": "destination",
-            "start": 12,
-            "value": "Andorra la Vella"
+            "start": 9,
+            "value": "Tiraspol"
           }
         ],
         "intent": "book_flight",
-        "text": "Funafuti to Andorra la Vella"
-      },
-      {
-        "entities": [
-          {
-            "end": 11,
-            "entity": "departure",
-            "start": 0,
-            "value": "George Town"
-          },
-          {
-            "end": 19,
-            "entity": "destination",
-            "start": 15,
-            "value": "Kiev"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "George Town to Kiev"
-      },
-      {
-        "entities": [
-          {
-            "end": 10,
-            "entity": "departure",
-            "start": 0,
-            "value": "Georgetown"
-          },
-          {
-            "end": 21,
-            "entity": "destination",
-            "start": 11,
-            "value": "Bridgetown"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "Georgetown Bridgetown"
+        "text": "Funafuti Tiraspol"
       },
       {
         "entities": [
@@ -223,35 +619,89 @@
             "end": 8,
             "entity": "departure",
             "start": 0,
-            "value": "Hamilton"
+            "value": "Funafuti"
+          },
+          {
+            "end": 16,
+            "entity": "destination",
+            "start": 12,
+            "value": "Doha"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Funafuti to Doha"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "departure",
+            "start": 0,
+            "value": "Gaborone"
           },
           {
             "end": 15,
             "entity": "destination",
             "start": 9,
-            "value": "Malabo"
+            "value": "Prague"
           }
         ],
         "intent": "book_flight",
-        "text": "Hamilton Malabo"
+        "text": "Gaborone Prague"
       },
       {
         "entities": [
           {
-            "end": 6,
+            "end": 7,
             "entity": "departure",
             "start": 0,
-            "value": "Harare"
+            "value": "Hagatna"
           },
           {
-            "end": 20,
+            "end": 21,
             "entity": "destination",
-            "start": 10,
-            "value": "St. Pierre"
+            "start": 11,
+            "value": "Nouakchott"
           }
         ],
         "intent": "book_flight",
-        "text": "Harare to St. Pierre"
+        "text": "Hagatna to Nouakchott"
+      },
+      {
+        "entities": [
+          {
+            "end": 5,
+            "entity": "departure",
+            "start": 0,
+            "value": "Hanoi"
+          },
+          {
+            "end": 14,
+            "entity": "destination",
+            "start": 6,
+            "value": "Djibouti"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Hanoi Djibouti"
+      },
+      {
+        "entities": [
+          {
+            "end": 5,
+            "entity": "departure",
+            "start": 0,
+            "value": "Hanoi"
+          },
+          {
+            "end": 15,
+            "entity": "destination",
+            "start": 9,
+            "value": "Bangui"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Hanoi to Bangui"
       },
       {
         "entities": [
@@ -265,29 +715,65 @@
             "end": 15,
             "entity": "destination",
             "start": 9,
-            "value": "Majuro"
+            "value": "Kigali"
           }
         ],
         "intent": "book_flight",
-        "text": "Hargeisa Majuro"
+        "text": "Hargeisa Kigali"
       },
       {
         "entities": [
           {
-            "end": 21,
+            "end": 8,
             "entity": "departure",
-            "start": 15,
-            "value": "Ankara"
+            "start": 0,
+            "value": "Hargeisa"
           },
           {
-            "end": 31,
+            "end": 18,
             "entity": "destination",
-            "start": 25,
-            "value": "Harare"
+            "start": 12,
+            "value": "Vienna"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Ankara to Harare"
+        "text": "Hargeisa to Vienna"
+      },
+      {
+        "entities": [
+          {
+            "end": 22,
+            "entity": "departure",
+            "start": 15,
+            "value": "Abidjan"
+          },
+          {
+            "end": 32,
+            "entity": "destination",
+            "start": 26,
+            "value": "Nassau"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Abidjan to Nassau tomorrow"
+      },
+      {
+        "entities": [
+          {
+            "end": 20,
+            "entity": "departure",
+            "start": 15,
+            "value": "Amman"
+          },
+          {
+            "end": 29,
+            "entity": "destination",
+            "start": 24,
+            "value": "Cairo"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Amman to Cairo on Saturday"
       },
       {
         "entities": [
@@ -295,17 +781,17 @@
             "end": 19,
             "entity": "departure",
             "start": 15,
-            "value": "Azaz"
+            "value": "Apia"
           },
           {
-            "end": 27,
+            "end": 29,
             "entity": "destination",
             "start": 23,
-            "value": "Dili"
+            "value": "London"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Azaz to Dili"
+        "text": "I'm going from Apia to London"
       },
       {
         "entities": [
@@ -316,14 +802,32 @@
             "value": "Basseterre"
           },
           {
-            "end": 42,
+            "end": 39,
             "entity": "destination",
             "start": 29,
-            "value": "Cockburn Town"
+            "value": "Phnom Penh"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Basseterre to Cockburn Town tomorrow"
+        "text": "I'm going from Basseterre to Phnom Penh tomorrow"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "entity": "departure",
+            "start": 15,
+            "value": "Beirut"
+          },
+          {
+            "end": 33,
+            "entity": "destination",
+            "start": 25,
+            "value": "Santiago"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Beirut to Santiago"
       },
       {
         "entities": [
@@ -334,14 +838,14 @@
             "value": "Belmopan"
           },
           {
-            "end": 34,
+            "end": 33,
             "entity": "destination",
             "start": 27,
-            "value": "Yerevan"
+            "value": "Maseru"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Belmopan to Yerevan"
+        "text": "I'm going from Belmopan to Maseru"
       },
       {
         "entities": [
@@ -349,71 +853,71 @@
             "end": 21,
             "entity": "departure",
             "start": 15,
-            "value": "Bogota"
+            "value": "Berlin"
           },
           {
-            "end": 32,
+            "end": 34,
             "entity": "destination",
             "start": 25,
-            "value": "Yerevan"
+            "value": "New Delhi"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Bogota to Yerevan"
+        "text": "I'm going from Berlin to New Delhi tomorrow"
       },
       {
         "entities": [
           {
-            "end": 23,
+            "end": 22,
             "entity": "departure",
             "start": 15,
-            "value": "Brussels"
+            "value": "Bishkek"
           },
           {
-            "end": 33,
+            "end": 31,
             "entity": "destination",
-            "start": 27,
-            "value": "Beirut"
+            "start": 26,
+            "value": "Amman"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Brussels to Beirut"
+        "text": "I'm going from Bishkek to Amman tomorrow"
       },
       {
         "entities": [
           {
-            "end": 23,
+            "end": 25,
             "entity": "departure",
             "start": 15,
-            "value": "Brussels"
+            "value": "Bratislava"
           },
           {
-            "end": 38,
+            "end": 36,
             "entity": "destination",
-            "start": 27,
-            "value": "Tegucigalpa"
+            "start": 29,
+            "value": "Kampala"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Brussels to Tegucigalpa"
+        "text": "I'm going from Bratislava to Kampala"
       },
       {
         "entities": [
           {
-            "end": 23,
+            "end": 25,
             "entity": "departure",
             "start": 15,
-            "value": "Canberra"
+            "value": "Copenhagen"
           },
           {
-            "end": 33,
+            "end": 37,
             "entity": "destination",
-            "start": 27,
-            "value": "Riyadh"
+            "start": 29,
+            "value": "Sarajevo"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Canberra to Riyadh on Thursday"
+        "text": "I'm going from Copenhagen to Sarajevo on Monday"
       },
       {
         "entities": [
@@ -424,14 +928,14 @@
             "value": "Djibouti"
           },
           {
-            "end": 35,
+            "end": 32,
             "entity": "destination",
             "start": 27,
-            "value": "Brussels"
+            "value": "Alofi"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Djibouti to Brussels tomorrow"
+        "text": "I'm going from Djibouti to Alofi"
       },
       {
         "entities": [
@@ -442,14 +946,68 @@
             "value": "Dodoma"
           },
           {
-            "end": 33,
+            "end": 30,
             "entity": "destination",
             "start": 25,
-            "value": "Lilongwe"
+            "value": "Sanaa"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Dodoma to Lilongwe tomorrow"
+        "text": "I'm going from Dodoma to Sanaa tomorrow"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "entity": "departure",
+            "start": 15,
+            "value": "Dublin"
+          },
+          {
+            "end": 41,
+            "entity": "destination",
+            "start": 25,
+            "value": "Andorra la Vella"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Dublin to Andorra la Vella on Monday"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "entity": "departure",
+            "start": 15,
+            "value": "Dublin"
+          },
+          {
+            "end": 35,
+            "entity": "destination",
+            "start": 25,
+            "value": "Bratislava"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Dublin to Bratislava on Friday"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "entity": "departure",
+            "start": 15,
+            "value": "Dublin"
+          },
+          {
+            "end": 41,
+            "entity": "destination",
+            "start": 25,
+            "value": "Charlotte Amalie"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Dublin to Charlotte Amalie tomorrow"
       },
       {
         "entities": [
@@ -457,53 +1015,35 @@
             "end": 23,
             "entity": "departure",
             "start": 15,
-            "value": "Dushanbe"
-          },
-          {
-            "end": 38,
-            "entity": "destination",
-            "start": 27,
-            "value": "Addis Ababa"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "I'm going from Dushanbe to Addis Ababa on Sunday"
-      },
-      {
-        "entities": [
-          {
-            "end": 31,
-            "entity": "departure",
-            "start": 15,
-            "value": "Flying Fish Cove"
-          },
-          {
-            "end": 42,
-            "entity": "destination",
-            "start": 35,
-            "value": "Jakarta"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "I'm going from Flying Fish Cove to Jakarta on Saturday"
-      },
-      {
-        "entities": [
-          {
-            "end": 26,
-            "entity": "departure",
-            "start": 15,
-            "value": "George Town"
+            "value": "El Aioun"
           },
           {
             "end": 35,
             "entity": "destination",
-            "start": 30,
-            "value": "Cairo"
+            "start": 27,
+            "value": "Hamilton"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from George Town to Cairo tomorrow"
+        "text": "I'm going from El Aioun to Hamilton tomorrow"
+      },
+      {
+        "entities": [
+          {
+            "end": 23,
+            "entity": "departure",
+            "start": 15,
+            "value": "Funafuti"
+          },
+          {
+            "end": 39,
+            "entity": "destination",
+            "start": 27,
+            "value": "Kuala Lumpur"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Funafuti to Kuala Lumpur tomorrow"
       },
       {
         "entities": [
@@ -514,32 +1054,32 @@
             "value": "Guatemala City"
           },
           {
-            "end": 44,
+            "end": 41,
             "entity": "destination",
             "start": 33,
-            "value": "Brazzaville"
+            "value": "Windhoek"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Guatemala City to Brazzaville on Wednesday"
+        "text": "I'm going from Guatemala City to Windhoek"
       },
       {
         "entities": [
           {
-            "end": 20,
+            "end": 23,
             "entity": "departure",
             "start": 15,
-            "value": "Hanoi"
+            "value": "Gustavia"
           },
           {
-            "end": 30,
+            "end": 34,
             "entity": "destination",
-            "start": 24,
-            "value": "Bangui"
+            "start": 27,
+            "value": "Caracas"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Hanoi to Bangui on Saturday"
+        "text": "I'm going from Gustavia to Caracas"
       },
       {
         "entities": [
@@ -550,50 +1090,14 @@
             "value": "Harare"
           },
           {
-            "end": 29,
+            "end": 31,
             "entity": "destination",
             "start": 25,
-            "value": "Lima"
+            "value": "Saipan"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Harare to Lima"
-      },
-      {
-        "entities": [
-          {
-            "end": 24,
-            "entity": "departure",
-            "start": 15,
-            "value": "Jerusalem"
-          },
-          {
-            "end": 33,
-            "entity": "destination",
-            "start": 28,
-            "value": "Minsk"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "I'm going from Jerusalem to Minsk"
-      },
-      {
-        "entities": [
-          {
-            "end": 21,
-            "entity": "departure",
-            "start": 15,
-            "value": "Kigali"
-          },
-          {
-            "end": 32,
-            "entity": "destination",
-            "start": 25,
-            "value": "Hagatna"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "I'm going from Kigali to Hagatna"
+        "text": "I'm going from Harare to Saipan tomorrow"
       },
       {
         "entities": [
@@ -601,53 +1105,35 @@
             "end": 23,
             "entity": "departure",
             "start": 15,
-            "value": "Kingston"
+            "value": "Hargeisa"
           },
           {
-            "end": 34,
+            "end": 36,
             "entity": "destination",
             "start": 27,
-            "value": "Caracas"
+            "value": "Vientiane"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Kingston to Caracas"
+        "text": "I'm going from Hargeisa to Vientiane on Sunday"
       },
       {
         "entities": [
           {
-            "end": 26,
+            "end": 23,
             "entity": "departure",
             "start": 15,
-            "value": "Kuwait City"
+            "value": "Helsinki"
           },
           {
-            "end": 34,
+            "end": 35,
             "entity": "destination",
-            "start": 30,
-            "value": "Bern"
+            "start": 27,
+            "value": "Asuncion"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Kuwait City to Bern on Thursday"
-      },
-      {
-        "entities": [
-          {
-            "end": 19,
-            "entity": "departure",
-            "start": 15,
-            "value": "Lima"
-          },
-          {
-            "end": 32,
-            "entity": "destination",
-            "start": 23,
-            "value": "Reykjavik"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "I'm going from Lima to Reykjavik on Sunday"
+        "text": "I'm going from Helsinki to Asuncion"
       },
       {
         "entities": [
@@ -655,17 +1141,53 @@
             "end": 24,
             "entity": "departure",
             "start": 15,
-            "value": "Ljubljana"
+            "value": "Islamabad"
           },
           {
-            "end": 34,
+            "end": 32,
             "entity": "destination",
             "start": 28,
-            "value": "Lusaka"
+            "value": "Oslo"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Ljubljana to Lusaka"
+        "text": "I'm going from Islamabad to Oslo on Thursday"
+      },
+      {
+        "entities": [
+          {
+            "end": 24,
+            "entity": "departure",
+            "start": 15,
+            "value": "Islamabad"
+          },
+          {
+            "end": 38,
+            "entity": "destination",
+            "start": 28,
+            "value": "Paramaribo"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Islamabad to Paramaribo"
+      },
+      {
+        "entities": [
+          {
+            "end": 24,
+            "entity": "departure",
+            "start": 15,
+            "value": "Islamabad"
+          },
+          {
+            "end": 38,
+            "entity": "destination",
+            "start": 28,
+            "value": "San Marino"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Islamabad to San Marino"
       },
       {
         "entities": [
@@ -673,35 +1195,161 @@
             "end": 22,
             "entity": "departure",
             "start": 15,
-            "value": "Managua"
+            "value": "Jakarta"
           },
           {
-            "end": 32,
+            "end": 34,
             "entity": "destination",
             "start": 26,
-            "value": "Banjul"
+            "value": "Tifariti"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Managua to Banjul on Wednesday"
+        "text": "I'm going from Jakarta to Tifariti"
       },
       {
         "entities": [
           {
-            "end": 25,
+            "end": 24,
             "entity": "departure",
             "start": 15,
-            "value": "Nur-Sultan"
+            "value": "Kathmandu"
           },
           {
-            "end": 33,
+            "end": 34,
             "entity": "destination",
-            "start": 29,
-            "value": "Suva"
+            "start": 28,
+            "value": "Bogota"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Nur-Sultan to Suva on Saturday"
+        "text": "I'm going from Kathmandu to Bogota on Monday"
+      },
+      {
+        "entities": [
+          {
+            "end": 32,
+            "entity": "departure",
+            "start": 15,
+            "value": "King Edward Point"
+          },
+          {
+            "end": 42,
+            "entity": "destination",
+            "start": 36,
+            "value": "Bangui"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from King Edward Point to Bangui"
+      },
+      {
+        "entities": [
+          {
+            "end": 23,
+            "entity": "departure",
+            "start": 15,
+            "value": "Lilongwe"
+          },
+          {
+            "end": 35,
+            "entity": "destination",
+            "start": 27,
+            "value": "San Jose"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Lilongwe to San Jose on Sunday"
+      },
+      {
+        "entities": [
+          {
+            "end": 22,
+            "entity": "departure",
+            "start": 15,
+            "value": "Lobamba"
+          },
+          {
+            "end": 36,
+            "entity": "destination",
+            "start": 26,
+            "value": "Phnom Penh"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Lobamba to Phnom Penh tomorrow"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "entity": "departure",
+            "start": 15,
+            "value": "Lusaka"
+          },
+          {
+            "end": 32,
+            "entity": "destination",
+            "start": 25,
+            "value": "Yaounde"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Lusaka to Yaounde"
+      },
+      {
+        "entities": [
+          {
+            "end": 22,
+            "entity": "departure",
+            "start": 15,
+            "value": "Marigot"
+          },
+          {
+            "end": 35,
+            "entity": "destination",
+            "start": 26,
+            "value": "New Delhi"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Marigot to New Delhi"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "entity": "departure",
+            "start": 15,
+            "value": "Moroni"
+          },
+          {
+            "end": 30,
+            "entity": "destination",
+            "start": 25,
+            "value": "Rabat"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Moroni to Rabat"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "entity": "departure",
+            "start": 15,
+            "value": "Nassau"
+          },
+          {
+            "end": 31,
+            "entity": "destination",
+            "start": 25,
+            "value": "Bogota"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Nassau to Bogota"
       },
       {
         "entities": [
@@ -712,68 +1360,32 @@
             "value": "Ouagadougou"
           },
           {
-            "end": 40,
+            "end": 38,
             "entity": "destination",
             "start": 30,
-            "value": "Port Louis"
+            "value": "Valletta"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Ouagadougou to Port Louis tomorrow"
+        "text": "I'm going from Ouagadougou to Valletta tomorrow"
       },
       {
         "entities": [
           {
-            "end": 26,
+            "end": 20,
             "entity": "departure",
             "start": 15,
-            "value": "Philipsburg"
+            "value": "Paris"
           },
           {
-            "end": 49,
+            "end": 33,
             "entity": "destination",
-            "start": 30,
-            "value": "Bandar Seri Begawan"
+            "start": 24,
+            "value": "N'Djamena"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Philipsburg to Bandar Seri Begawan tomorrow"
-      },
-      {
-        "entities": [
-          {
-            "end": 29,
-            "entity": "departure",
-            "start": 15,
-            "value": "Port-au-Prince"
-          },
-          {
-            "end": 52,
-            "entity": "destination",
-            "start": 33,
-            "value": "Episkopi Cantonment"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "I'm going from Port-au-Prince to Episkopi Cantonment"
-      },
-      {
-        "entities": [
-          {
-            "end": 24,
-            "entity": "departure",
-            "start": 15,
-            "value": "Reykjavik"
-          },
-          {
-            "end": 35,
-            "entity": "destination",
-            "start": 28,
-            "value": "Sukhumi"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "I'm going from Reykjavik to Sukhumi tomorrow"
+        "text": "I'm going from Paris to N'Djamena on Tuesday"
       },
       {
         "entities": [
@@ -781,17 +1393,107 @@
             "end": 23,
             "entity": "departure",
             "start": 15,
-            "value": "Sao Tome"
+            "value": "Pretoria"
           },
           {
-            "end": 32,
+            "end": 35,
             "entity": "destination",
             "start": 27,
-            "value": "Accra"
+            "value": "Helsinki"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Sao Tome to Accra"
+        "text": "I'm going from Pretoria to Helsinki"
+      },
+      {
+        "entities": [
+          {
+            "end": 24,
+            "entity": "departure",
+            "start": 15,
+            "value": "Pyongyang"
+          },
+          {
+            "end": 36,
+            "entity": "destination",
+            "start": 28,
+            "value": "Tiraspol"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Pyongyang to Tiraspol on Wednesday"
+      },
+      {
+        "entities": [
+          {
+            "end": 24,
+            "entity": "departure",
+            "start": 15,
+            "value": "Road Town"
+          },
+          {
+            "end": 35,
+            "entity": "destination",
+            "start": 28,
+            "value": "Tallinn"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Road Town to Tallinn on Thursday"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "entity": "departure",
+            "start": 15,
+            "value": "Saipan"
+          },
+          {
+            "end": 35,
+            "entity": "destination",
+            "start": 25,
+            "value": "Oranjestad"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Saipan to Oranjestad on Saturday"
+      },
+      {
+        "entities": [
+          {
+            "end": 23,
+            "entity": "departure",
+            "start": 15,
+            "value": "Sarajevo"
+          },
+          {
+            "end": 36,
+            "entity": "destination",
+            "start": 27,
+            "value": "Vientiane"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Sarajevo to Vientiane on Tuesday"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "entity": "departure",
+            "start": 15,
+            "value": "Skopje"
+          },
+          {
+            "end": 35,
+            "entity": "destination",
+            "start": 25,
+            "value": "St. John's"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Skopje to St. John's tomorrow"
       },
       {
         "entities": [
@@ -805,65 +1507,11 @@
             "end": 50,
             "entity": "destination",
             "start": 44,
-            "value": "Beirut"
+            "value": "Bamako"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Sri Jayawardenepura Kotte to Beirut"
-      },
-      {
-        "entities": [
-          {
-            "end": 40,
-            "entity": "departure",
-            "start": 15,
-            "value": "Sri Jayawardenepura Kotte"
-          },
-          {
-            "end": 52,
-            "entity": "destination",
-            "start": 44,
-            "value": "Brasilia"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "I'm going from Sri Jayawardenepura Kotte to Brasilia"
-      },
-      {
-        "entities": [
-          {
-            "end": 23,
-            "entity": "departure",
-            "start": 15,
-            "value": "Tifariti"
-          },
-          {
-            "end": 34,
-            "entity": "destination",
-            "start": 27,
-            "value": "Vilnius"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "I'm going from Tifariti to Vilnius"
-      },
-      {
-        "entities": [
-          {
-            "end": 27,
-            "entity": "departure",
-            "start": 15,
-            "value": "Yamoussoukro"
-          },
-          {
-            "end": 38,
-            "entity": "destination",
-            "start": 31,
-            "value": "Tallinn"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "I'm going from Yamoussoukro to Tallinn"
+        "text": "I'm going from Sri Jayawardenepura Kotte to Bamako tomorrow"
       },
       {
         "entities": [
@@ -871,17 +1519,107 @@
             "end": 22,
             "entity": "departure",
             "start": 15,
-            "value": "Yaounde"
+            "value": "Tbilisi"
+          },
+          {
+            "end": 33,
+            "entity": "destination",
+            "start": 26,
+            "value": "Jakarta"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Tbilisi to Jakarta tomorrow"
+      },
+      {
+        "entities": [
+          {
+            "end": 20,
+            "entity": "departure",
+            "start": 15,
+            "value": "Tokyo"
+          },
+          {
+            "end": 28,
+            "entity": "destination",
+            "start": 24,
+            "value": "Baku"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Tokyo to Baku"
+      },
+      {
+        "entities": [
+          {
+            "end": 25,
+            "entity": "departure",
+            "start": 15,
+            "value": "Wellington"
           },
           {
             "end": 36,
             "entity": "destination",
-            "start": 26,
-            "value": "St. Helier"
+            "start": 29,
+            "value": "Algiers"
           }
         ],
         "intent": "book_flight",
-        "text": "I'm going from Yaounde to St. Helier on Monday"
+        "text": "I'm going from Wellington to Algiers tomorrow"
+      },
+      {
+        "entities": [
+          {
+            "end": 20,
+            "entity": "departure",
+            "start": 15,
+            "value": "Yaren"
+          },
+          {
+            "end": 31,
+            "entity": "destination",
+            "start": 24,
+            "value": "Jakarta"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Yaren to Jakarta tomorrow"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "entity": "departure",
+            "start": 15,
+            "value": "Zagreb"
+          },
+          {
+            "end": 33,
+            "entity": "destination",
+            "start": 25,
+            "value": "Damascus"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Zagreb to Damascus"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "entity": "departure",
+            "start": 15,
+            "value": "Zagreb"
+          },
+          {
+            "end": 36,
+            "entity": "destination",
+            "start": 25,
+            "value": "George Town"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "I'm going from Zagreb to George Town"
       },
       {
         "entities": [
@@ -889,17 +1627,17 @@
             "end": 9,
             "entity": "departure",
             "start": 0,
-            "value": "Jamestown"
+            "value": "Jerusalem"
           },
           {
-            "end": 22,
+            "end": 21,
             "entity": "destination",
             "start": 13,
-            "value": "Gibraltar"
+            "value": "Gustavia"
           }
         ],
         "intent": "book_flight",
-        "text": "Jamestown to Gibraltar"
+        "text": "Jerusalem to Gustavia"
       },
       {
         "entities": [
@@ -907,125 +1645,71 @@
             "end": 4,
             "entity": "departure",
             "start": 0,
-            "value": "Juba"
+            "value": "Kiev"
           },
           {
-            "end": 9,
+            "end": 20,
             "entity": "destination",
-            "start": 5,
-            "value": "Lome"
+            "start": 8,
+            "value": "Buenos Aires"
           }
         ],
         "intent": "book_flight",
-        "text": "Juba Lome"
+        "text": "Kiev to Buenos Aires"
       },
       {
         "entities": [
           {
-            "end": 9,
+            "end": 6,
             "entity": "departure",
             "start": 0,
-            "value": "Kathmandu"
+            "value": "Kigali"
           },
           {
-            "end": 16,
+            "end": 14,
             "entity": "destination",
             "start": 10,
-            "value": "Manama"
+            "value": "Oslo"
           }
         ],
         "intent": "book_flight",
-        "text": "Kathmandu Manama"
+        "text": "Kigali to Oslo"
       },
       {
         "entities": [
           {
-            "end": 6,
+            "end": 17,
             "entity": "departure",
             "start": 0,
-            "value": "La Paz"
+            "value": "King Edward Point"
           },
           {
-            "end": 26,
+            "end": 28,
             "entity": "destination",
-            "start": 7,
-            "value": "Bandar Seri Begawan"
+            "start": 21,
+            "value": "Baghdad"
           }
         ],
         "intent": "book_flight",
-        "text": "La Paz Bandar Seri Begawan"
+        "text": "King Edward Point to Baghdad"
       },
       {
         "entities": [
           {
-            "end": 10,
+            "end": 9,
             "entity": "departure",
             "start": 0,
-            "value": "Libreville"
-          },
-          {
-            "end": 18,
-            "entity": "destination",
-            "start": 11,
-            "value": "Algiers"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "Libreville Algiers"
-      },
-      {
-        "entities": [
-          {
-            "end": 10,
-            "entity": "departure",
-            "start": 0,
-            "value": "Libreville"
-          },
-          {
-            "end": 19,
-            "entity": "destination",
-            "start": 11,
-            "value": "Dushanbe"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "Libreville Dushanbe"
-      },
-      {
-        "entities": [
-          {
-            "end": 6,
-            "entity": "departure",
-            "start": 0,
-            "value": "Maseru"
-          },
-          {
-            "end": 16,
-            "entity": "destination",
-            "start": 7,
             "value": "Kingstown"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "Maseru Kingstown"
-      },
-      {
-        "entities": [
-          {
-            "end": 11,
-            "entity": "departure",
-            "start": 0,
-            "value": "Mexico City"
           },
           {
-            "end": 19,
+            "end": 20,
             "entity": "destination",
-            "start": 15,
-            "value": "Nuuk"
+            "start": 13,
+            "value": "Kampala"
           }
         ],
         "intent": "book_flight",
-        "text": "Mexico City to Nuuk"
+        "text": "Kingstown to Kampala"
       },
       {
         "entities": [
@@ -1033,17 +1717,161 @@
             "end": 8,
             "entity": "departure",
             "start": 0,
-            "value": "Monrovia"
+            "value": "Kinshasa"
+          },
+          {
+            "end": 21,
+            "entity": "destination",
+            "start": 12,
+            "value": "Putrajaya"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Kinshasa to Putrajaya"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "entity": "departure",
+            "start": 0,
+            "value": "Libreville"
+          },
+          {
+            "end": 21,
+            "entity": "destination",
+            "start": 14,
+            "value": "Stanley"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Libreville to Stanley"
+      },
+      {
+        "entities": [
+          {
+            "end": 4,
+            "entity": "departure",
+            "start": 0,
+            "value": "Lima"
           },
           {
             "end": 17,
             "entity": "destination",
-            "start": 12,
-            "value": "Accra"
+            "start": 8,
+            "value": "Singapore"
           }
         ],
         "intent": "book_flight",
-        "text": "Monrovia to Accra"
+        "text": "Lima to Singapore"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "entity": "departure",
+            "start": 0,
+            "value": "Lisbon"
+          },
+          {
+            "end": 13,
+            "entity": "destination",
+            "start": 7,
+            "value": "Bangui"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Lisbon Bangui"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "departure",
+            "start": 0,
+            "value": "Ljubljana"
+          },
+          {
+            "end": 37,
+            "entity": "destination",
+            "start": 10,
+            "value": "Edinburgh of the Seven Seas"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Ljubljana Edinburgh of the Seven Seas"
+      },
+      {
+        "entities": [
+          {
+            "end": 4,
+            "entity": "departure",
+            "start": 0,
+            "value": "Lome"
+          },
+          {
+            "end": 15,
+            "entity": "destination",
+            "start": 5,
+            "value": "St. Pierre"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Lome St. Pierre"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "entity": "departure",
+            "start": 0,
+            "value": "Majuro"
+          },
+          {
+            "end": 37,
+            "entity": "destination",
+            "start": 10,
+            "value": "Edinburgh of the Seven Seas"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Majuro to Edinburgh of the Seven Seas"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "entity": "departure",
+            "start": 0,
+            "value": "Manama"
+          },
+          {
+            "end": 14,
+            "entity": "destination",
+            "start": 7,
+            "value": "Tripoli"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Manama Tripoli"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "entity": "departure",
+            "start": 0,
+            "value": "Manama"
+          },
+          {
+            "end": 16,
+            "entity": "destination",
+            "start": 10,
+            "value": "Tarawa"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Manama to Tarawa"
       },
       {
         "entities": [
@@ -1051,53 +1879,71 @@
             "end": 7,
             "entity": "departure",
             "start": 0,
-            "value": "Nairobi"
+            "value": "Mbabane"
+          },
+          {
+            "end": 14,
+            "entity": "destination",
+            "start": 8,
+            "value": "Bangui"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Mbabane Bangui"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "departure",
+            "start": 0,
+            "value": "Ngerulmud"
+          },
+          {
+            "end": 21,
+            "entity": "destination",
+            "start": 13,
+            "value": "Torshavn"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Ngerulmud to Torshavn"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "entity": "departure",
+            "start": 0,
+            "value": "Niamey"
           },
           {
             "end": 17,
             "entity": "destination",
+            "start": 7,
+            "value": "Georgetown"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Niamey Georgetown"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "entity": "departure",
+            "start": 0,
+            "value": "Nicosia"
+          },
+          {
+            "end": 19,
+            "entity": "destination",
             "start": 11,
-            "value": "Noumea"
+            "value": "Belgrade"
           }
         ],
         "intent": "book_flight",
-        "text": "Nairobi to Noumea"
-      },
-      {
-        "entities": [
-          {
-            "end": 9,
-            "entity": "departure",
-            "start": 0,
-            "value": "Naypyidaw"
-          },
-          {
-            "end": 23,
-            "entity": "destination",
-            "start": 13,
-            "value": "The Valley"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "Naypyidaw to The Valley"
-      },
-      {
-        "entities": [
-          {
-            "end": 9,
-            "entity": "departure",
-            "start": 0,
-            "value": "New Delhi"
-          },
-          {
-            "end": 20,
-            "entity": "destination",
-            "start": 13,
-            "value": "Tripoli"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "New Delhi to Tripoli"
+        "text": "Nicosia to Belgrade"
       },
       {
         "entities": [
@@ -1110,12 +1956,12 @@
           {
             "end": 21,
             "entity": "destination",
-            "start": 14,
-            "value": "Abidjan"
+            "start": 11,
+            "value": "Nouakchott"
           }
         ],
         "intent": "book_flight",
-        "text": "Nuku`alofa to Abidjan"
+        "text": "Nuku`alofa Nouakchott"
       },
       {
         "entities": [
@@ -1126,68 +1972,68 @@
             "value": "Nur-Sultan"
           },
           {
-            "end": 28,
+            "end": 17,
             "entity": "destination",
             "start": 11,
-            "value": "King Edward Point"
+            "value": "Dodoma"
           }
         ],
         "intent": "book_flight",
-        "text": "Nur-Sultan King Edward Point"
+        "text": "Nur-Sultan Dodoma"
       },
       {
         "entities": [
           {
-            "end": 4,
+            "end": 9,
             "entity": "departure",
             "start": 0,
-            "value": "Nuuk"
+            "value": "Pago Pago"
           },
           {
-            "end": 11,
+            "end": 24,
             "entity": "destination",
-            "start": 5,
-            "value": "Malabo"
+            "start": 13,
+            "value": "George Town"
           }
         ],
         "intent": "book_flight",
-        "text": "Nuuk Malabo"
+        "text": "Pago Pago to George Town"
       },
       {
         "entities": [
           {
-            "end": 11,
+            "end": 5,
             "entity": "departure",
             "start": 0,
-            "value": "Philipsburg"
+            "value": "Paris"
           },
           {
-            "end": 17,
+            "end": 14,
             "entity": "destination",
-            "start": 12,
-            "value": "Yaren"
+            "start": 6,
+            "value": "Windhoek"
           }
         ],
         "intent": "book_flight",
-        "text": "Philipsburg Yaren"
+        "text": "Paris Windhoek"
       },
       {
         "entities": [
           {
-            "end": 8,
+            "end": 10,
             "entity": "departure",
             "start": 0,
-            "value": "Plymouth"
+            "value": "Phnom Penh"
           },
           {
-            "end": 17,
+            "end": 26,
             "entity": "destination",
-            "start": 9,
-            "value": "Gustavia"
+            "start": 14,
+            "value": "Buenos Aires"
           }
         ],
         "intent": "book_flight",
-        "text": "Plymouth Gustavia"
+        "text": "Phnom Penh to Buenos Aires"
       },
       {
         "entities": [
@@ -1198,14 +2044,32 @@
             "value": "Port Vila"
           },
           {
-            "end": 17,
+            "end": 18,
             "entity": "destination",
             "start": 10,
-            "value": "Nicosia"
+            "value": "Sao Tome"
           }
         ],
         "intent": "book_flight",
-        "text": "Port Vila Nicosia"
+        "text": "Port Vila Sao Tome"
+      },
+      {
+        "entities": [
+          {
+            "end": 14,
+            "entity": "departure",
+            "start": 0,
+            "value": "Port-au-Prince"
+          },
+          {
+            "end": 28,
+            "entity": "destination",
+            "start": 18,
+            "value": "Nur-Sultan"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Port-au-Prince to Nur-Sultan"
       },
       {
         "entities": [
@@ -1216,14 +2080,32 @@
             "value": "Pristina"
           },
           {
-            "end": 20,
+            "end": 15,
             "entity": "destination",
-            "start": 12,
-            "value": "Valletta"
+            "start": 9,
+            "value": "Beirut"
           }
         ],
         "intent": "book_flight",
-        "text": "Pristina to Valletta"
+        "text": "Pristina Beirut"
+      },
+      {
+        "entities": [
+          {
+            "end": 5,
+            "entity": "departure",
+            "start": 0,
+            "value": "Rabat"
+          },
+          {
+            "end": 14,
+            "entity": "destination",
+            "start": 6,
+            "value": "El Aioun"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Rabat El Aioun"
       },
       {
         "entities": [
@@ -1231,17 +2113,71 @@
             "end": 9,
             "entity": "departure",
             "start": 0,
-            "value": "Putrajaya"
+            "value": "Reykjavik"
+          },
+          {
+            "end": 27,
+            "entity": "destination",
+            "start": 13,
+            "value": "Guatemala City"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Reykjavik to Guatemala City"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "departure",
+            "start": 0,
+            "value": "Santiago"
+          },
+          {
+            "end": 22,
+            "entity": "destination",
+            "start": 9,
+            "value": "Cockburn Town"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Santiago Cockburn Town"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "departure",
+            "start": 0,
+            "value": "Santiago"
           },
           {
             "end": 18,
             "entity": "destination",
-            "start": 10,
-            "value": "Tashkent"
+            "start": 9,
+            "value": "New Delhi"
           }
         ],
         "intent": "book_flight",
-        "text": "Putrajaya Tashkent"
+        "text": "Santiago New Delhi"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "departure",
+            "start": 0,
+            "value": "Santo Domingo"
+          },
+          {
+            "end": 26,
+            "entity": "destination",
+            "start": 17,
+            "value": "Kingstown"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Santo Domingo to Kingstown"
       },
       {
         "entities": [
@@ -1252,14 +2188,104 @@
             "value": "Sarajevo"
           },
           {
-            "end": 37,
+            "end": 15,
             "entity": "destination",
-            "start": 12,
-            "value": "Sri Jayawardenepura Kotte"
+            "start": 9,
+            "value": "Ankara"
           }
         ],
         "intent": "book_flight",
-        "text": "Sarajevo to Sri Jayawardenepura Kotte"
+        "text": "Sarajevo Ankara"
+      },
+      {
+        "entities": [
+          {
+            "end": 8,
+            "entity": "departure",
+            "start": 0,
+            "value": "Sarajevo"
+          },
+          {
+            "end": 21,
+            "entity": "destination",
+            "start": 9,
+            "value": "Antananarivo"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Sarajevo Antananarivo"
+      },
+      {
+        "entities": [
+          {
+            "end": 6,
+            "entity": "departure",
+            "start": 0,
+            "value": "Skopje"
+          },
+          {
+            "end": 17,
+            "entity": "destination",
+            "start": 7,
+            "value": "Nur-Sultan"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Skopje Nur-Sultan"
+      },
+      {
+        "entities": [
+          {
+            "end": 5,
+            "entity": "departure",
+            "start": 0,
+            "value": "Sofia"
+          },
+          {
+            "end": 19,
+            "entity": "destination",
+            "start": 9,
+            "value": "Bratislava"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Sofia to Bratislava"
+      },
+      {
+        "entities": [
+          {
+            "end": 25,
+            "entity": "departure",
+            "start": 0,
+            "value": "Sri Jayawardenepura Kotte"
+          },
+          {
+            "end": 35,
+            "entity": "destination",
+            "start": 26,
+            "value": "Ngerulmud"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Sri Jayawardenepura Kotte Ngerulmud"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "entity": "departure",
+            "start": 0,
+            "value": "St. John's"
+          },
+          {
+            "end": 20,
+            "entity": "destination",
+            "start": 14,
+            "value": "Bissau"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "St. John's to Bissau"
       },
       {
         "entities": [
@@ -1270,32 +2296,32 @@
             "value": "St. Pierre"
           },
           {
-            "end": 21,
+            "end": 18,
             "entity": "destination",
             "start": 14,
-            "value": "Bangkok"
+            "value": "Dili"
           }
         ],
         "intent": "book_flight",
-        "text": "St. Pierre to Bangkok"
+        "text": "St. Pierre to Dili"
       },
       {
         "entities": [
           {
-            "end": 7,
+            "end": 9,
             "entity": "departure",
             "start": 0,
-            "value": "Stanley"
+            "value": "Stockholm"
           },
           {
-            "end": 17,
+            "end": 20,
             "entity": "destination",
-            "start": 8,
-            "value": "Putrajaya"
+            "start": 13,
+            "value": "Kampala"
           }
         ],
         "intent": "book_flight",
-        "text": "Stanley Putrajaya"
+        "text": "Stockholm to Kampala"
       },
       {
         "entities": [
@@ -1306,50 +2332,14 @@
             "value": "Sukhumi"
           },
           {
-            "end": 16,
+            "end": 19,
             "entity": "destination",
             "start": 8,
-            "value": "Djibouti"
+            "value": "Panama City"
           }
         ],
         "intent": "book_flight",
-        "text": "Sukhumi Djibouti"
-      },
-      {
-        "entities": [
-          {
-            "end": 4,
-            "entity": "departure",
-            "start": 0,
-            "value": "Suva"
-          },
-          {
-            "end": 18,
-            "entity": "destination",
-            "start": 8,
-            "value": "Basseterre"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "Suva to Basseterre"
-      },
-      {
-        "entities": [
-          {
-            "end": 7,
-            "entity": "departure",
-            "start": 0,
-            "value": "Tallinn"
-          },
-          {
-            "end": 16,
-            "entity": "destination",
-            "start": 11,
-            "value": "Hanoi"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "Tallinn to Hanoi"
+        "text": "Sukhumi Panama City"
       },
       {
         "entities": [
@@ -1360,32 +2350,14 @@
             "value": "Tarawa"
           },
           {
-            "end": 13,
+            "end": 15,
             "entity": "destination",
             "start": 7,
-            "value": "Dublin"
+            "value": "Monrovia"
           }
         ],
         "intent": "book_flight",
-        "text": "Tarawa Dublin"
-      },
-      {
-        "entities": [
-          {
-            "end": 8,
-            "entity": "departure",
-            "start": 0,
-            "value": "Tashkent"
-          },
-          {
-            "end": 19,
-            "entity": "destination",
-            "start": 9,
-            "value": "Copenhagen"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "Tashkent Copenhagen"
+        "text": "Tarawa Monrovia"
       },
       {
         "entities": [
@@ -1396,32 +2368,14 @@
             "value": "Tbilisi"
           },
           {
-            "end": 15,
-            "entity": "destination",
-            "start": 8,
-            "value": "Lobamba"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "Tbilisi Lobamba"
-      },
-      {
-        "entities": [
-          {
-            "end": 10,
-            "entity": "departure",
-            "start": 0,
-            "value": "The Valley"
-          },
-          {
-            "end": 21,
+            "end": 20,
             "entity": "destination",
             "start": 11,
-            "value": "Phnom Penh"
+            "value": "Mogadishu"
           }
         ],
         "intent": "book_flight",
-        "text": "The Valley Phnom Penh"
+        "text": "Tbilisi to Mogadishu"
       },
       {
         "entities": [
@@ -1429,107 +2383,71 @@
             "end": 6,
             "entity": "departure",
             "start": 0,
-            "value": "Tirana"
+            "value": "Tehran"
+          },
+          {
+            "end": 15,
+            "entity": "destination",
+            "start": 7,
+            "value": "Tifariti"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Tehran Tifariti"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "entity": "departure",
+            "start": 0,
+            "value": "Thimphu"
+          },
+          {
+            "end": 17,
+            "entity": "destination",
+            "start": 8,
+            "value": "New Delhi"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Thimphu New Delhi"
+      },
+      {
+        "entities": [
+          {
+            "end": 7,
+            "entity": "departure",
+            "start": 0,
+            "value": "Thimphu"
+          },
+          {
+            "end": 15,
+            "entity": "destination",
+            "start": 8,
+            "value": "Yaounde"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "Thimphu Yaounde"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "departure",
+            "start": 0,
+            "value": "West Island"
           },
           {
             "end": 19,
             "entity": "destination",
-            "start": 10,
-            "value": "Pago Pago"
+            "start": 12,
+            "value": "Sukhumi"
           }
         ],
         "intent": "book_flight",
-        "text": "Tirana to Pago Pago"
-      },
-      {
-        "entities": [
-          {
-            "end": 12,
-            "entity": "departure",
-            "start": 0,
-            "value": "Vatican City"
-          },
-          {
-            "end": 29,
-            "entity": "destination",
-            "start": 16,
-            "value": "Dar es Salaam"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "Vatican City to Dar es Salaam"
-      },
-      {
-        "entities": [
-          {
-            "end": 6,
-            "entity": "departure",
-            "start": 0,
-            "value": "Warsaw"
-          },
-          {
-            "end": 15,
-            "entity": "destination",
-            "start": 10,
-            "value": "Alofi"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "Warsaw to Alofi"
-      },
-      {
-        "entities": [
-          {
-            "end": 16,
-            "entity": "departure",
-            "start": 0,
-            "value": "Washington, D.C."
-          },
-          {
-            "end": 21,
-            "entity": "destination",
-            "start": 17,
-            "value": "Lome"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "Washington, D.C. Lome"
-      },
-      {
-        "entities": [
-          {
-            "end": 10,
-            "entity": "departure",
-            "start": 0,
-            "value": "Willemstad"
-          },
-          {
-            "end": 21,
-            "entity": "destination",
-            "start": 14,
-            "value": "Beijing"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "Willemstad to Beijing"
-      },
-      {
-        "entities": [
-          {
-            "end": 12,
-            "entity": "departure",
-            "start": 0,
-            "value": "Yamoussoukro"
-          },
-          {
-            "end": 21,
-            "entity": "destination",
-            "start": 16,
-            "value": "Paris"
-          }
-        ],
-        "intent": "book_flight",
-        "text": "Yamoussoukro to Paris"
+        "text": "West Island Sukhumi"
       },
       {
         "entities": [
@@ -1540,24 +2458,91 @@
             "value": "Yaounde"
           },
           {
-            "end": 21,
+            "end": 17,
             "entity": "destination",
-            "start": 11,
-            "value": "Willemstad"
+            "start": 8,
+            "value": "Jamestown"
           }
         ],
         "intent": "book_flight",
-        "text": "Yaounde to Willemstad"
+        "text": "Yaounde Jamestown"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "departure",
+            "start": 5,
+            "value": "Abidjan"
+          },
+          {
+            "end": 28,
+            "entity": "destination",
+            "start": 16,
+            "value": "Vatican City"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Abidjan to Vatican City"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "entity": "departure",
+            "start": 5,
+            "value": "Accra"
+          },
+          {
+            "end": 21,
+            "entity": "destination",
+            "start": 14,
+            "value": "Papeete"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Accra to Papeete on Friday"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "departure",
+            "start": 5,
+            "value": "Aden"
+          },
+          {
+            "end": 22,
+            "entity": "destination",
+            "start": 13,
+            "value": "Port Vila"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Aden to Port Vila tomorrow"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "entity": "departure",
+            "start": 5,
+            "value": "Amman"
+          },
+          {
+            "end": 21,
+            "entity": "destination",
+            "start": 14,
+            "value": "Bangkok"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Amman to Bangkok on Thursday"
       },
       {
         "entities": [],
         "intent": "book_flight",
-        "text": "from August to August"
-      },
-      {
-        "entities": [],
-        "intent": "book_flight",
-        "text": "from August to January"
+        "text": "from August to July"
       },
       {
         "entities": [],
@@ -1565,63 +2550,948 @@
         "text": "from August to June"
       },
       {
-        "entities": [],
+        "entities": [
+          {
+            "end": 9,
+            "entity": "departure",
+            "start": 5,
+            "value": "Azaz"
+          },
+          {
+            "end": 21,
+            "entity": "destination",
+            "start": 13,
+            "value": "Brasilia"
+          }
+        ],
         "intent": "book_flight",
-        "text": "from August to November"
+        "text": "from Azaz to Brasilia"
+      },
+      {
+        "entities": [
+          {
+            "end": 24,
+            "entity": "departure",
+            "start": 5,
+            "value": "Bandar Seri Begawan"
+          },
+          {
+            "end": 35,
+            "entity": "destination",
+            "start": 28,
+            "value": "Abidjan"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Bandar Seri Begawan to Abidjan tomorrow"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "departure",
+            "start": 5,
+            "value": "Bangui"
+          },
+          {
+            "end": 23,
+            "entity": "destination",
+            "start": 15,
+            "value": "Freetown"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Bangui to Freetown"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "departure",
+            "start": 5,
+            "value": "Beijing"
+          },
+          {
+            "end": 24,
+            "entity": "destination",
+            "start": 16,
+            "value": "Pretoria"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Beijing to Pretoria"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "departure",
+            "start": 5,
+            "value": "Bishkek"
+          },
+          {
+            "end": 41,
+            "entity": "destination",
+            "start": 16,
+            "value": "Sri Jayawardenepura Kotte"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Bishkek to Sri Jayawardenepura Kotte"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "departure",
+            "start": 5,
+            "value": "Bissau"
+          },
+          {
+            "end": 23,
+            "entity": "destination",
+            "start": 15,
+            "value": "Brasilia"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Bissau to Brasilia"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "departure",
+            "start": 5,
+            "value": "Brussels"
+          },
+          {
+            "end": 22,
+            "entity": "destination",
+            "start": 17,
+            "value": "Abuja"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Brussels to Abuja"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "departure",
+            "start": 5,
+            "value": "Budapest"
+          },
+          {
+            "end": 25,
+            "entity": "destination",
+            "start": 17,
+            "value": "Pretoria"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Budapest to Pretoria"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "departure",
+            "start": 5,
+            "value": "Canberra"
+          },
+          {
+            "end": 26,
+            "entity": "destination",
+            "start": 17,
+            "value": "Podgorica"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Canberra to Podgorica"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "departure",
+            "start": 5,
+            "value": "Caracas"
+          },
+          {
+            "end": 21,
+            "entity": "destination",
+            "start": 16,
+            "value": "Paris"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Caracas to Paris on Saturday"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "entity": "departure",
+            "start": 5,
+            "value": "Charlotte Amalie"
+          },
+          {
+            "end": 29,
+            "entity": "destination",
+            "start": 25,
+            "value": "Suva"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Charlotte Amalie to Suva"
       },
       {
         "entities": [],
         "intent": "book_flight",
-        "text": "from December to April"
+        "text": "from December to May"
       },
       {
         "entities": [],
         "intent": "book_flight",
-        "text": "from February to September"
+        "text": "from December to September"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "entity": "departure",
+            "start": 5,
+            "value": "Dhaka"
+          },
+          {
+            "end": 24,
+            "entity": "destination",
+            "start": 14,
+            "value": "Oranjestad"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Dhaka to Oranjestad"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "entity": "departure",
+            "start": 5,
+            "value": "Dhaka"
+          },
+          {
+            "end": 20,
+            "entity": "destination",
+            "start": 14,
+            "value": "Tarawa"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Dhaka to Tarawa on Sunday"
+      },
+      {
+        "entities": [
+          {
+            "end": 21,
+            "entity": "departure",
+            "start": 5,
+            "value": "Flying Fish Cove"
+          },
+          {
+            "end": 35,
+            "entity": "destination",
+            "start": 25,
+            "value": "Bridgetown"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Flying Fish Cove to Bridgetown"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "departure",
+            "start": 5,
+            "value": "Freetown"
+          },
+          {
+            "end": 23,
+            "entity": "destination",
+            "start": 17,
+            "value": "Bangui"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Freetown to Bangui"
+      },
+      {
+        "entities": [
+          {
+            "end": 16,
+            "entity": "departure",
+            "start": 5,
+            "value": "George Town"
+          },
+          {
+            "end": 26,
+            "entity": "destination",
+            "start": 20,
+            "value": "Roseau"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from George Town to Roseau tomorrow"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "entity": "departure",
+            "start": 5,
+            "value": "Georgetown"
+          },
+          {
+            "end": 30,
+            "entity": "destination",
+            "start": 19,
+            "value": "George Town"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Georgetown to George Town on Monday"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "entity": "departure",
+            "start": 5,
+            "value": "Georgetown"
+          },
+          {
+            "end": 25,
+            "entity": "destination",
+            "start": 19,
+            "value": "Niamey"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Georgetown to Niamey tomorrow"
+      },
+      {
+        "entities": [
+          {
+            "end": 19,
+            "entity": "departure",
+            "start": 5,
+            "value": "Guatemala City"
+          },
+          {
+            "end": 28,
+            "entity": "destination",
+            "start": 23,
+            "value": "Yaren"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Guatemala City to Yaren"
       },
       {
         "entities": [],
         "intent": "book_flight",
-        "text": "from January to July"
+        "text": "from January to August"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "departure",
+            "start": 5,
+            "value": "Juba"
+          },
+          {
+            "end": 21,
+            "entity": "destination",
+            "start": 13,
+            "value": "Brasilia"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Juba to Brasilia on Saturday"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "departure",
+            "start": 5,
+            "value": "Juba"
+          },
+          {
+            "end": 20,
+            "entity": "destination",
+            "start": 13,
+            "value": "Cotonou"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Juba to Cotonou"
       },
       {
         "entities": [],
         "intent": "book_flight",
-        "text": "from January to November"
+        "text": "from June to September"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "departure",
+            "start": 5,
+            "value": "La Paz"
+          },
+          {
+            "end": 23,
+            "entity": "destination",
+            "start": 15,
+            "value": "Plymouth"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from La Paz to Plymouth on Wednesday"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "departure",
+            "start": 5,
+            "value": "Lilongwe"
+          },
+          {
+            "end": 29,
+            "entity": "destination",
+            "start": 17,
+            "value": "Antananarivo"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Lilongwe to Antananarivo tomorrow"
+      },
+      {
+        "entities": [
+          {
+            "end": 9,
+            "entity": "departure",
+            "start": 5,
+            "value": "Lima"
+          },
+          {
+            "end": 22,
+            "entity": "destination",
+            "start": 13,
+            "value": "Kathmandu"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Lima to Kathmandu"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "departure",
+            "start": 5,
+            "value": "Madrid"
+          },
+          {
+            "end": 20,
+            "entity": "destination",
+            "start": 15,
+            "value": "Accra"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Madrid to Accra"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "departure",
+            "start": 5,
+            "value": "Managua"
+          },
+          {
+            "end": 23,
+            "entity": "destination",
+            "start": 16,
+            "value": "Marigot"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Managua to Marigot on Monday"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "departure",
+            "start": 5,
+            "value": "Manama"
+          },
+          {
+            "end": 22,
+            "entity": "destination",
+            "start": 15,
+            "value": "Lobamba"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Manama to Lobamba tomorrow"
       },
       {
         "entities": [],
         "intent": "book_flight",
-        "text": "from July to December"
+        "text": "from March to April"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "departure",
+            "start": 5,
+            "value": "Maseru"
+          },
+          {
+            "end": 20,
+            "entity": "destination",
+            "start": 15,
+            "value": "Dakar"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Maseru to Dakar"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "departure",
+            "start": 5,
+            "value": "Mbabane"
+          },
+          {
+            "end": 25,
+            "entity": "destination",
+            "start": 16,
+            "value": "Hanga Roa"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Mbabane to Hanga Roa tomorrow"
+      },
+      {
+        "entities": [
+          {
+            "end": 16,
+            "entity": "departure",
+            "start": 5,
+            "value": "Mexico City"
+          },
+          {
+            "end": 31,
+            "entity": "destination",
+            "start": 20,
+            "value": "Stepanakert"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Mexico City to Stepanakert"
+      },
+      {
+        "entities": [
+          {
+            "end": 14,
+            "entity": "departure",
+            "start": 5,
+            "value": "Mogadishu"
+          },
+          {
+            "end": 23,
+            "entity": "destination",
+            "start": 18,
+            "value": "Minsk"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Mogadishu to Minsk tomorrow"
+      },
+      {
+        "entities": [
+          {
+            "end": 14,
+            "entity": "departure",
+            "start": 5,
+            "value": "N'Djamena"
+          },
+          {
+            "end": 25,
+            "entity": "destination",
+            "start": 18,
+            "value": "Bangkok"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from N'Djamena to Bangkok on Thursday"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "departure",
+            "start": 5,
+            "value": "Nassau"
+          },
+          {
+            "end": 27,
+            "entity": "destination",
+            "start": 15,
+            "value": "Vatican City"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Nassau to Vatican City"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "entity": "departure",
+            "start": 5,
+            "value": "Nouakchott"
+          },
+          {
+            "end": 23,
+            "entity": "destination",
+            "start": 19,
+            "value": "Oslo"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Nouakchott to Oslo on Tuesday"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "entity": "departure",
+            "start": 5,
+            "value": "Nuku`alofa"
+          },
+          {
+            "end": 44,
+            "entity": "destination",
+            "start": 19,
+            "value": "Sri Jayawardenepura Kotte"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Nuku`alofa to Sri Jayawardenepura Kotte tomorrow"
       },
       {
         "entities": [],
         "intent": "book_flight",
-        "text": "from March to January"
+        "text": "from October to August"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "entity": "departure",
+            "start": 5,
+            "value": "Oranjestad"
+          },
+          {
+            "end": 28,
+            "entity": "destination",
+            "start": 19,
+            "value": "Ngerulmud"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Oranjestad to Ngerulmud on Friday"
+      },
+      {
+        "entities": [
+          {
+            "end": 11,
+            "entity": "departure",
+            "start": 5,
+            "value": "Ottawa"
+          },
+          {
+            "end": 23,
+            "entity": "destination",
+            "start": 15,
+            "value": "Plymouth"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Ottawa to Plymouth on Sunday"
+      },
+      {
+        "entities": [
+          {
+            "end": 16,
+            "entity": "departure",
+            "start": 5,
+            "value": "Ouagadougou"
+          },
+          {
+            "end": 29,
+            "entity": "destination",
+            "start": 20,
+            "value": "Abu Dhabi"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Ouagadougou to Abu Dhabi on Wednesday"
+      },
+      {
+        "entities": [
+          {
+            "end": 14,
+            "entity": "departure",
+            "start": 5,
+            "value": "Port Vila"
+          },
+          {
+            "end": 26,
+            "entity": "destination",
+            "start": 18,
+            "value": "Ashgabat"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Port Vila to Ashgabat on Thursday"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "departure",
+            "start": 5,
+            "value": "Pristina"
+          },
+          {
+            "end": 28,
+            "entity": "destination",
+            "start": 17,
+            "value": "Brazzaville"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Pristina to Brazzaville"
+      },
+      {
+        "entities": [
+          {
+            "end": 18,
+            "entity": "departure",
+            "start": 5,
+            "value": "Santo Domingo"
+          },
+          {
+            "end": 31,
+            "entity": "destination",
+            "start": 22,
+            "value": "Abu Dhabi"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Santo Domingo to Abu Dhabi on Tuesday"
       },
       {
         "entities": [],
         "intent": "book_flight",
-        "text": "from May to July"
+        "text": "from September to July"
       },
       {
-        "entities": [],
+        "entities": [
+          {
+            "end": 10,
+            "entity": "departure",
+            "start": 5,
+            "value": "Sofia"
+          },
+          {
+            "end": 21,
+            "entity": "destination",
+            "start": 14,
+            "value": "Mbabane"
+          }
+        ],
         "intent": "book_flight",
-        "text": "from November to January"
+        "text": "from Sofia to Mbabane on Thursday"
       },
       {
-        "entities": [],
+        "entities": [
+          {
+            "end": 15,
+            "entity": "departure",
+            "start": 5,
+            "value": "St. Helier"
+          },
+          {
+            "end": 28,
+            "entity": "destination",
+            "start": 19,
+            "value": "Putrajaya"
+          }
+        ],
         "intent": "book_flight",
-        "text": "from September to April"
+        "text": "from St. Helier to Putrajaya"
       },
       {
-        "entities": [],
+        "entities": [
+          {
+            "end": 12,
+            "entity": "departure",
+            "start": 5,
+            "value": "Thimphu"
+          },
+          {
+            "end": 28,
+            "entity": "destination",
+            "start": 16,
+            "value": "Kuala Lumpur"
+          }
+        ],
         "intent": "book_flight",
-        "text": "from September to November"
+        "text": "from Thimphu to Kuala Lumpur tomorrow"
+      },
+      {
+        "entities": [
+          {
+            "end": 13,
+            "entity": "departure",
+            "start": 5,
+            "value": "Torshavn"
+          },
+          {
+            "end": 26,
+            "entity": "destination",
+            "start": 17,
+            "value": "Pyongyang"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Torshavn to Pyongyang"
+      },
+      {
+        "entities": [
+          {
+            "end": 10,
+            "entity": "departure",
+            "start": 5,
+            "value": "Vaduz"
+          },
+          {
+            "end": 22,
+            "entity": "destination",
+            "start": 14,
+            "value": "Hamilton"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Vaduz to Hamilton"
+      },
+      {
+        "entities": [
+          {
+            "end": 15,
+            "entity": "departure",
+            "start": 5,
+            "value": "Willemstad"
+          },
+          {
+            "end": 35,
+            "entity": "destination",
+            "start": 19,
+            "value": "Charlotte Amalie"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Willemstad to Charlotte Amalie"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "departure",
+            "start": 5,
+            "value": "Yaounde"
+          },
+          {
+            "end": 32,
+            "entity": "destination",
+            "start": 16,
+            "value": "Charlotte Amalie"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Yaounde to Charlotte Amalie"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "departure",
+            "start": 5,
+            "value": "Yaounde"
+          },
+          {
+            "end": 26,
+            "entity": "destination",
+            "start": 16,
+            "value": "Porto-Novo"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Yaounde to Porto-Novo"
+      },
+      {
+        "entities": [
+          {
+            "end": 12,
+            "entity": "departure",
+            "start": 5,
+            "value": "Yerevan"
+          },
+          {
+            "end": 21,
+            "entity": "destination",
+            "start": 16,
+            "value": "Tunis"
+          }
+        ],
+        "intent": "book_flight",
+        "text": "from Yerevan to Tunis"
       }
     ],
     "entity_synonyms": [],
-    "lookup_tables": [],
+    "lookup_tables": [
+      {
+        "elements": "data\\cities.txt",
+        "name": "capitals"
+      }
+    ],
     "regex_features": []
   }
 }
